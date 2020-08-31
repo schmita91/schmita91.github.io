@@ -1,0 +1,132 @@
+/* Body, Page Structure */
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/lake-background.JPG");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+div.p-box {
+  background: rgba(159, 166, 179, 0.7)
+}
+
+div.p-box-center{
+  background: rgba(159, 166, 179, 0.7)
+}
+ 
+/*---- Setting up groups and items for flexbox */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 5px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 5px;
+}
+
+.item-triple {
+  flex: 3;
+  margin: 5px;
+}
+
+/*------ Box Sizing ------*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*------ Images ------*/
+img {
+  width: 80%;
+  border: 5px;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+.sweden-bike {
+  height: 90vh;
+  width: auto;
+}
+
+images/lake-background.JPG {
+  opacity: .5;
+}
+
+/*------ Fonts, Colors, Backgrounds ------*/
+
+h1 {
+  font-size: 36px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2, h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p, ul, ol, li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/*----- p-box container for each section -----*/
+.p-box {
+  margin: 5vh;
+  width: 100%;
+  border: black solid 3px;
+  padding:30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.p-box-center {
+  margin: 5vh;
+  width: 100%;
+  border: black solid 3px;
+  padding:30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*--------- Pseudo Classes ---------*/
+/*--------- unvisited link ---------*/
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: pink;
+}
+}
+
+
+/*------ Groups and Items (Desktop) ----*/
+@media all and (min-width:800px) {
+ .group {
+  display: flex;
+  flex-direction: row;
+}
+}

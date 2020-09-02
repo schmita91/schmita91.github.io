@@ -6,6 +6,8 @@ body {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  padding: 3vw;
+  padding-right: 5vw;
 }
 
 div.p-box {
@@ -44,6 +46,11 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #bdbdbd;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+  padding: 0 30px 0 0px;
 }
 
 /*---- Setting up groups and items for flexbox */
@@ -86,8 +93,9 @@ img.rounded {
 }
 
 .sweden-bike {
-  height: 90vh;
-  width: auto;
+  height: auto;
+  width: 80%;
+  max-width: 500px;
 }
 
 lake-background.JPG {
@@ -113,19 +121,19 @@ p, ul, ol, li {
 
 /*----- p-box container for each section -----*/
 .p-box {
-  margin: 5vh;
+  margin: 1vh 1vw;
   width: 100%;
   border: black solid 3px;
-  padding:30px;
+  padding: 30px;
   margin-bottom: 10px;
   text-align: left;
 }
 
 .p-box-center {
-  margin: 5vh;
+  margin: 1vh 1vw;
   width: 100%;
   border: black solid 3px;
-  padding:30px;
+  padding: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -189,13 +197,17 @@ main a:hover {
 main a:active {
   color: pink;
 }
-}
+
 
 
 /*------ Groups and Items (Desktop) ----*/
-@media all and (min-width:800px) {
+@media all and (min-width:400px) {
  .group {
   display: flex;
   flex-direction: column;
+}
+  .sweden-bike {
+  height: auto;
+  width: 50%;
 }
 }

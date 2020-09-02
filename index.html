@@ -6,39 +6,37 @@
     <title>Andrew Schmit Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-<!-- Code Requirements
-About Me section:
-
-show your personality outside of coding
-List of services you can (or want to) provide a client.
-
-Project section
-Project Title
-Project Description
-link to Project
-(Note: You may not have developed projects yet. Setup your portfolio with placeholder content. You'll replace this placeholder content as you move through the program and complete assignments. Placeholder content for all of the following is acceptable.)-->
 
   <body>
     <header>
-      <div class="p-box">
+      <div class="p-box-center">
         <h1>Andrew Schmit: Web Developer</h1>
+      <nav><ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
       </div>
+      
     </header>
 
-    <main>
+    <main class="group">
+      <section id="home">
       <div class="p-box-center">
         <h2>Introduction</h2>
-        <div class="group">
         <div class="item">
           <p><b>Hello!</b> Welcome to my website! My name is Andrew Schmit and I am a web developer in Pittsburgh, Pennsylvania.</p>
         </div>
         <div class="item">
-          <img src="sweden-bike.jpg" alt="sweden bike" class="img rounded sweden-bike">
-        </div>
+          <img src="images/sweden-bike.jpg" alt="sweden bike" class="img rounded sweden-bike">
         </div>
       </div>
+      </section>
 
-      <div class="group p-box">
+      <section id="about">
+      <div class="item p-box">
       <h2>About Me</h2>
       <h3>Trading my hockey skates for a laptop</h3>
         <div class="item">
@@ -58,24 +56,48 @@ link to Project
         </ul>
         </div>
       </div>
-      
-      <div class="p-box group">
-        <h2>Contact</h2>
+      </section>
+
+      <section id="contact">
+      <div class="p-box item">
+        <h2>Contact Me via E-Mail</h2>
+        <form action="https://formspree.io/schmita91@gmail.com" method="post">
+          <label for="name">Name: </label>
+          <input id="name" type="text" name="name" placeholder="Please enter your name" required>
+          
+          <label for="email">Email: </label>
+          <input id="email" type="text" name="email" placeholder="Example: JoeSchmo@emailhere.com" required>
+
+          <label for="message">Message: </label>
+          <textarea id="message" name="message" placeholder="Enter your message here..." required></textarea>
+        <button type="submit">Send!</button>
+        <button type="reset">Clear</button>
+        </form>
+      </div>
+      <div class="p-box item">
+        <h2>Check me out on social media!</h2>
           <div class="item">
-            <p>Please feel free to contact me at:</p>
+            <p>Reach out to me on social media!:</p>
             <ul>
               <li><a href="https://www.linkedin.com/in/andrew-schmit-67a205a4/" target="_blank">LinkedIn</a></li>
               <li><a href="http://www.github.com/schmita91" target="_blank">GitHub</a></li>
             </ul>
           </div>
       </div>
+      </section>
 
-      <div class="p-box group">
+      <section id="portfolio">
+      <div class="p-box item">
         <h2>Projects</h2>
         <div class="item">
-            <p>Here is where a list of my future projects will be. Stay tuned!</p>
+            <h3>Daily Habit Tracker</h3>
+            <p>Recently, I have read about the power of habits and how tracking them will improve the likelihood of forming new habits. Using HTML forms, my app allows you to input a new habit you want to start tracking, and every day the app will ask you Yes or No if you did the habit, for all the habits you have inputed. Here is a link to download my app: <a href="#portfolio">Download Habit Tracker</a>
         </div>
+        <div class="item">
+          <h3>Hockey Lesson Scheduler</h3>
+          <p>On my <a href="#home">hockey coaching website</a>, I used JavaScript to create a matchmaking tool that will match a player with one of our coaches based on availability and skill level. From there, I used local hockey rink schedule APIs to give the user available ice times and locations to book a lesson with their Matching coach! 
       </div>
+      </section>
     </main>
     <footer>
     </footer>

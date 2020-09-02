@@ -9,9 +9,9 @@
 
   <body>
     <header>
-      <div class="p-box-center">
+      <div class="p-box-center group">
         <h1>Andrew Schmit: Web Developer</h1>
-      <nav><ul id="menu">
+      <nav class="item"><ul id="menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
@@ -21,8 +21,7 @@
       </div>
       
     </header>
-
- <!-- For Flexbox purposes, I have made the main page a "group" and each of the p-boxes and their content "items" so that they may be responsive-->   
+ <!-- For Flexbox purposes, I have made the main page a "group" and each of the p-boxes and their content "items" so that they may be responsive-->  
     <main class="group">
       <section id="home">
       <div class="p-box-center">
@@ -35,8 +34,8 @@
         </div>
       </div>
       </section>
-      
-      <!--About Me Section which talks about who I am, where I come from, and what I do that makes me special-->
+
+<!--About Me Section which talks about who I am, where I come from, and what I do that makes me special-->
       <section id="about">
       <div class="item p-box">
       <h2>About Me</h2>
@@ -45,6 +44,12 @@
         <p>For the last 23 years, I have played ice hockey. With years of practice, I have lived my dream and have been playing professionally for the past 4 years. Now, I'm taking the time to focus my efforts on something new: the pursuit of becoming a Full Stack Web Developer.</p>
         </div>
 
+        <div class="item">
+          <h3>Skills and software I can use for you or your client</h3>
+          <ul><li>HTML, CSS, and JavaScript</li>
+          <li>Backend development</li>
+          <li>Database engineering and management</li>
+          </ul>
         <div class="item">
         <p>As an athlete, I know from experience that the only way to become good at something is to give it your full attention, do it every day, and practice, practice, practice! With my experience on many different teams, I have developed the teamwork skills necessary to be a valuable teammate who can work with all different leadership types and personalities!</p>
         </div>
@@ -59,8 +64,7 @@
         </div>
       </div>
       </section>
-
-      <!--Portfolio Section with Habit Tracker and Lesson Scheduler Placeholders-->
+<!--Portfolio Section with Habit Tracker and Lesson Scheduler Placeholders-->
       <section id="portfolio">
       <div class="p-box item">
         <h2>Projects</h2>
@@ -71,11 +75,9 @@
         <div class="item">
           <h3>Hockey Lesson Scheduler</h3>
           <p>On my <a href="#home">hockey coaching website</a>, I used JavaScript to create a matchmaking tool that will match a player with one of our coaches based on availability and skill level. From there, I used local hockey rink schedule APIs to give the user available ice times and locations to book a lesson with their Matching coach! 
-        </div>
-        </div>
+      </div>
       </section>
-        
-      <!--Contact Section with E-Mail Form and links to Social Media-->
+<!--Contact Section with E-Mail Form and links to Social Media-->
       <section id="contact">
       <div class="p-box item">
         <h2>Contact Me via E-Mail</h2>

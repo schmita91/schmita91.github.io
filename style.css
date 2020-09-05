@@ -28,24 +28,26 @@ header h1 {
 header nav {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-self: center;
 }
 
 header nav ul {
   display: flex;
   flex-direction: column;
-  padding-bottom: 5px;
+  align-self: center;
+  padding: 0 5px 0 5px;
 }
 
 header nav ul li {
   list-style-type: none;
   font-size: 18px;
+  align-self: center;
 }
 
 header nav ul li a {
   color:rgb(0, 0, 0);
   text-decoration: none;
-  padding: 0 20px 0 0;
+  padding: 0 0px 0 0 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -54,7 +56,6 @@ header nav ul li a:hover {
 }
 
 header nav ul li:last-child a {
-  padding-right: 20px
   margin-right: 0;
 }
 

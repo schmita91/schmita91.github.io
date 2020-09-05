@@ -267,7 +267,7 @@ nav.p-box-center {
 body {
   width: 100%;
   height: 100%;
-  background-image: url("images/lake-background.JPG");
+  background-image: url("lake-background.JPG");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;

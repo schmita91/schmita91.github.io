@@ -2,7 +2,7 @@
 body {
   width: 100%;
   height: 100%;
-  background-image: url("lake-background.JPG");
+  background-image: url("pittsburgh-wallpaper.png");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -12,17 +12,19 @@ body {
 
 /*---making the background of the p-boxes translucent gray ---*/
 div.p-box {
-  background: rgba(159, 166, 179, 0.7)
+  background: rgba(159, 166, 179, 0.9)
 }
 
 div.p-box-center{
-  background: rgba(159, 166, 179, 0.7)
+  background: rgba(159, 166, 179, 0.9)
 }
 
 /*----- Header Navigation-----*/
 header h1 {
   font-size: 24px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  text-emphasis: bold;
+  font-weight:900;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header nav {
@@ -47,8 +49,8 @@ header nav ul li {
 header nav ul li a {
   color:rgb(0, 0, 0);
   text-decoration: none;
-  padding: 0 0px 0 0 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0 0px 0 0; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 header nav ul li a:hover {
@@ -114,15 +116,15 @@ images/lake-background.JPG {
 
 h1 {
   font-size: 36px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2, h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p, ul, ol, li {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -152,7 +154,7 @@ form label {
   font-size: 18px;
   margin-bottom: 5px;
   color: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 form input[type=text],
@@ -164,7 +166,7 @@ form textarea {
 }
 
 form textarea {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 160px;
 }
 
@@ -172,7 +174,7 @@ form button {
   padding: 10px 16px;
   border-radius: 10px;
   border: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   background:#000;
   color: #fff;
@@ -240,7 +242,7 @@ header nav ul li a {
   color:rgb(0, 0, 0);
   text-decoration: none;
   padding: 0 20px 0 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header nav ul li a:hover {
@@ -254,26 +256,30 @@ header nav ul li:last-child a {
 
 header h1 {
   font-size: 36px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
-p-box-center,
-p-box,
+.p-box-center,
+.p-box,
 nav.p-box,
 nav.p-box-center {
-  margin: 2vh 2vw;
+  margin: 3vh 3vw;
 }
 
 body {
   width: 100%;
   height: 100%;
-  background-image: url("lake-background.JPG");
+  background-image: url("pittsburgh-wallpaper.png");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  padding: 0 4vw 0 0;
+  padding: 0 18vw 0 16vw;
   
 }
 
+#portfolio h3 {
+  font-weight: bold;
+}
 
 }

@@ -24,7 +24,7 @@ header h1 {
   font-size: 24px;
   text-emphasis: bold;
   font-weight:900;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
 }
 
 header nav {
@@ -116,24 +116,27 @@ images/lake-background.JPG {
 
 h1 {
   font-size: 36px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2, h3 {
-  font-family: 'Open Sans', sans-serif;
+h2, h3, h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p, ul, ol, li {
   font-family: 'Open Sans', sans-serif;
 }
 
+.item h4 {
+  font-style: italic;
+}
 
 
 /*----- p-box container for each section -----*/
 .p-box {
   margin: 1vh 1vw;
   width: 100%;
-  border: black solid 3px;
+  /*border: black solid 3px;*/
   padding: 30px;
   margin-bottom: 10px;
   text-align: left;
@@ -142,7 +145,7 @@ p, ul, ol, li {
 .p-box-center {
   margin: 1vh 1vw;
   width: 100%;
-  border: black solid 3px;
+  /*border: black solid 3px;*/
   padding: 30px;
   margin-bottom: 10px;
   text-align: center;
@@ -256,7 +259,7 @@ header nav ul li:last-child a {
 
 header h1 {
   font-size: 36px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
 
